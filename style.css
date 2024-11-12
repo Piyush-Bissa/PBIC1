@@ -1,0 +1,184 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    background-color: #96C2DF;
+    padding: 1em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 0 auto;
+}
+.logo {
+   
+    background: url('PBIC.png');
+    background-size: cover;
+    width: 500px;
+    height: 100px;
+    background-color: white;
+    border-radius: 4px;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 0px 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+nav ul li i{
+    color: white;
+    padding: 5px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.hero {
+    color: white;
+    padding: 5em 2em;
+    text-align: center;
+    background-color: #006699;
+
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+    color: white;
+}
+
+.cta {
+    background-color: #ff6600;
+    color: white;
+    padding: 1em 2em;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+section {
+    padding: 4em 2em;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2em;
+    color: #004d80;
+    margin-bottom: 0.5em;
+}
+
+section p {
+    font-size: 1em;
+    color: #666;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+
+#services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service {
+    flex: 1 1 30%;
+    background-color: #e6f2ff;
+    margin: 1em;
+    padding: 2em;
+    border-radius: 8px;
+}
+
+.service h3 {
+    color: #004d80;
+    font-size: 1.5em;
+}
+
+.service p {
+    color: #555;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 1em;
+    margin: 0.5em 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contact button {
+    background-color: #ff6600;
+    color: white;
+    padding: 1em 2em;
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #e65c00;
+}
+.bottom{
+    font-size: 17px;
+    background-color:#96C2DF ;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 150px;
+    display: flex;
+   align-items: center;    
+   justify-content: space-evenly;
+}
+.bottom p1{
+    text-decoration: underline;
+}
+.social p{
+    text-decoration: underline;
+}
+ul{
+    list-style: none;
+}
+.social li a{
+    color: #333;
+}
